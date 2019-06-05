@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Fantasy Room.ma
-//Last modified: Tue, Jun 04, 2019 08:57:43 PM
+//Last modified: Tue, Jun 04, 2019 09:01:32 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l meter -a degree -t film;
@@ -13,7 +13,7 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A1989652-407D-C9B2-5112-24962E63DB6A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 10.914314067552402 27.357961741216574 73.253129126483657 ;
+	setAttr ".t" -type "double3" 10.914314067552082 27.357961741216076 73.253129126481795 ;
 	setAttr ".r" -type "double3" -374.73835274358026 -1430.1999999994107 8.0691323013645759e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "068A0B46-4043-F101-2E1F-ABBFAF947443";
@@ -22,7 +22,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.05;
 	setAttr ".fcp" 100000;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 104.92327111079233;
+	setAttr ".coi" 104.92327111079031;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
